@@ -1,6 +1,11 @@
 import { MapPin, Phone, Clock, Instagram, Facebook, Twitter } from 'lucide-react';
 
-export default function Footer() {
+interface FooterProps {
+  onShowImpressum: () => void;
+  onShowDatenschutz: () => void;
+}
+
+export default function Footer({ onShowImpressum, onShowDatenschutz }: FooterProps) {
   return (
     <footer id="location" className="bg-text text-white pt-24 pb-12">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
@@ -76,8 +81,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 pt-8 border-t border-white/10 text-center text-gray-500 text-sm flex flex-col md:flex-row justify-between items-center gap-4">
         <p>&copy; {new Date().getFullYear()} MAY FOOD. Alle Rechte vorbehalten.</p>
         <div className="flex gap-4">
-          <a href="#" className="hover:text-white transition-colors">Impressum</a>
-          <a href="#" className="hover:text-white transition-colors">Datenschutz</a>
+          <button onClick={onShowImpressum} className="hover:text-white transition-colors cursor-pointer">Impressum</button>
+          <button onClick={onShowDatenschutz} className="hover:text-white transition-colors cursor-pointer">Datenschutz</button>
         </div>
       </div>
     </footer>

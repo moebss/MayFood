@@ -7,7 +7,7 @@ interface FooterProps {
 
 export default function Footer({ onShowImpressum, onShowDatenschutz }: FooterProps) {
   return (
-    <footer id="location" className="bg-text text-white pt-24 pb-12">
+    <footer className="bg-text text-white pt-24 pb-12">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
         {/* Brand */}
         <div className="space-y-6">

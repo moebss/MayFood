@@ -59,7 +59,8 @@ export const LegalModals: React.FC<LegalModalsProps> = ({
                         <p>
                             MAY FOOD<br />
                             Alexander Rheindorf<br />
-                            Köln, Deutschland
+                            Maybachstraße 100<br />
+                            50670 Köln
                         </p>
                     </section>
 
@@ -75,7 +76,8 @@ export const LegalModals: React.FC<LegalModalsProps> = ({
                         <h3 className="text-xl font-bold text-text mb-2">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h3>
                         <p>
                             Alexander Rheindorf<br />
-                            Köln, Deutschland
+                            Maybachstraße 100<br />
+                            50670 Köln
                         </p>
                     </section>
 

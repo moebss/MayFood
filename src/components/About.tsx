@@ -54,7 +54,7 @@ export default function About() {
               <span className="text-accent">moderne Küche</span>
             </h2>
           </div>
-          
+
           <div className="space-y-6 text-text-light text-lg leading-relaxed">
             <p>
               Was als kleiner Familienbetrieb begann, ist heute ein Treffpunkt für Liebhaber der authentischen orientalischen Küche. Wir bereiten unseren Shawarma nach einem geheimen Familienrezept zu, das über Generationen weitergegeben wurde.
@@ -68,11 +68,6 @@ export default function About() {
             <div className="flex flex-col">
               <span className="text-3xl font-bold font-serif text-primary">100%</span>
               <span className="text-sm text-text-light uppercase tracking-wider font-medium">Frische Zutaten</span>
-            </div>
-            <div className="w-px h-12 bg-gray-200" />
-            <div className="flex flex-col">
-              <span className="text-3xl font-bold font-serif text-primary">24h</span>
-              <span className="text-sm text-text-light uppercase tracking-wider font-medium">Marinade</span>
             </div>
           </div>
         </motion.div>

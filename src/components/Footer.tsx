@@ -1,4 +1,4 @@
-import { MapPin, Phone, Clock, Instagram, Facebook, Twitter } from 'lucide-react';
+import { MapPin, Phone, Clock, Instagram } from 'lucide-react';
 
 interface FooterProps {
   onShowImpressum: () => void;
@@ -20,10 +20,9 @@ export default function Footer({ onShowImpressum, onShowDatenschutz }: FooterPro
               <Instagram className="w-5 h-5" />
             </a>
             <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
-              <Facebook className="w-5 h-5" />
-            </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
-              <Twitter className="w-5 h-5" />
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.69a8.29 8.29 0 0 0 4.76 1.5V6.73a4.83 4.83 0 0 1-1-.04z" />
+              </svg>
             </a>
           </div>
         </div>
@@ -44,7 +43,7 @@ export default function Footer({ onShowImpressum, onShowDatenschutz }: FooterPro
           <ul className="space-y-4">
             <li className="flex items-start gap-3 text-gray-400">
               <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
-              <span>Köln, Deutschland<br />(Lieferung via Lieferando)</span>
+              <span>Maybachstraße 100<br />50670 Köln</span>
             </li>
             <li className="flex items-center gap-3 text-gray-400">
               <Phone className="w-5 h-5 text-primary flex-shrink-0" />
@@ -61,16 +60,16 @@ export default function Footer({ onShowImpressum, onShowDatenschutz }: FooterPro
               <Clock className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
               <div className="space-y-1">
                 <p className="flex justify-between gap-4">
-                  <span>Mo - Do:</span>
-                  <span>11:00 - 23:00</span>
+                  <span>Do:</span>
+                  <span>11:00 – 23:00</span>
                 </p>
                 <p className="flex justify-between gap-4">
-                  <span>Fr - Sa:</span>
-                  <span>11:00 - 02:00</span>
+                  <span>Fr – Sa:</span>
+                  <span>11:00 – 00:30</span>
                 </p>
-                <p className="flex justify-between gap-4 text-primary">
-                  <span>Sonntag:</span>
-                  <span>Geschlossen</span>
+                <p className="flex justify-between gap-4">
+                  <span>So – Mi:</span>
+                  <span>11:00 – 23:00</span>
                 </p>
               </div>
             </li>

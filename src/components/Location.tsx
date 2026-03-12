@@ -74,7 +74,10 @@ export default function Location() {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-text uppercase tracking-wider text-sm">Bestellung</h4>
-                                    <p className="text-text-light text-lg">Online via Lieferando<br />oder direkt vor Ort</p>
+                                    <p className="text-text-light text-lg">
+                                        <a href="tel:+4901789624429" className="hover:text-primary transition-colors">0178 962 4429</a><br />
+                                        oder via Lieferando
+                                    </p>
                                 </div>
                             </div>
                         </div>

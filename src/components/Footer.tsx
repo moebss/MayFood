@@ -19,7 +19,7 @@ export default function Footer({ onShowImpressum, onShowDatenschutz }: FooterPro
             <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
               <Instagram className="w-5 h-5" />
             </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
+            <a href="https://www.tiktok.com/@may_food.1" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
               <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.69a8.29 8.29 0 0 0 4.76 1.5V6.73a4.83 4.83 0 0 1-1-.04z" />
               </svg>
@@ -47,7 +47,7 @@ export default function Footer({ onShowImpressum, onShowDatenschutz }: FooterPro
             </li>
             <li className="flex items-center gap-3 text-gray-400">
               <Phone className="w-5 h-5 text-primary flex-shrink-0" />
-              <span>Online Bestellung</span>
+              <a href="tel:+4901789624429" className="hover:text-white transition-colors">0178 962 4429</a>
             </li>
           </ul>
         </div>

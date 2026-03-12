@@ -25,7 +25,7 @@ export default function Hero() {
         >
           Authentischer <span className="text-accent">Shawarma</span>
         </motion.h1>
-        
+
         <motion.p
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -50,7 +50,7 @@ export default function Hero() {
             <span className="relative z-10">Auf Lieferando bestellen</span>
             <div className="absolute inset-0 bg-primary-dark transform scale-x-0 origin-left transition-transform group-hover:scale-x-100 z-0" />
           </a>
-          
+
           <a
             href="#menu"
             className="group px-8 py-4 bg-white/10 backdrop-blur-sm border border-white/30 text-white text-lg font-semibold uppercase tracking-wider rounded-full transition-all hover:bg-white/20 hover:scale-105 w-full sm:w-auto flex items-center justify-center gap-2"
@@ -61,22 +61,7 @@ export default function Hero() {
         </motion.div>
       </div>
 
-      {/* Scroll Indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1, duration: 1 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
-      >
-        <span className="text-white/60 text-xs uppercase tracking-widest">Scroll</span>
-        <div className="w-[1px] h-12 bg-white/30 overflow-hidden">
-          <motion.div
-            animate={{ y: [0, 48, 0] }}
-            transition={{ repeat: Infinity, duration: 2, ease: "linear" }}
-            className="w-full h-1/2 bg-white"
-          />
-        </div>
-      </motion.div>
+
     </section>
   );
 }
